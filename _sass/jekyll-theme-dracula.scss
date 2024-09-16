@@ -32,7 +32,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  color:$green;
+  color:$foreground;
   font-size:48px;
   line-height: 52px;
 }
@@ -49,7 +49,7 @@ h3 {
 
 h4, h5, h6 {
   font-family: $body-fonts;
-  color:$yellow;
+  color:$purple;
   font-weight: 600;
 }
 
@@ -68,12 +68,12 @@ h6 {
 }
 
 a {
-  color:$green;
+  color:$purple;
   font-weight:400;
   text-decoration:none;
 
   &:hover {
-    color: darken($green, 20%);
+    color: darken($purple, 20%);
   }
 }
 
@@ -105,7 +105,7 @@ section img {
 }
 
 blockquote {
-  border-left:3px solid $green;
+  border-left:3px solid $purple;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -159,7 +159,7 @@ hr {
   outline: none;
   height: 3px;
   margin: 0 0 20px;
-  background: $green;
+  background: $purple;
 }
 
 dt {
@@ -169,8 +169,8 @@ dt {
 
 button, a.button {
   color: $background;
-  border: 2px solid $cyan;
-  background: $cyan;
+  border: 2px solid $purple;
+  background: $purple;
   padding: 10px 12px;
   margin-top: 6px;
   line-height:14px;

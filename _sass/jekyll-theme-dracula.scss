@@ -18,9 +18,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading-fonts;
-  color: $purple;
+  color: $foreground;
   margin:0 0 10px;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 p, ul, ol, table, pre, dl {
@@ -49,7 +49,7 @@ h3 {
 
 h4, h5, h6 {
   font-family: $body-fonts;
-  color:$purple;
+  color:$foreground;
   font-weight: 600;
 }
 
@@ -73,7 +73,7 @@ a {
   text-decoration:none;
 
   &:hover {
-    color: darken($purple, 20%);
+    color: darken($pink, 33%);
   }
 }
 
@@ -170,7 +170,7 @@ dt {
 button, a.button {
   color: $background;
   border: 2px solid $purple;
-  background: $purple;
+  background: $pink;
   padding: 10px 12px;
   margin-top: 6px;
   line-height:14px;
